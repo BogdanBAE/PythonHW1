@@ -8,9 +8,14 @@
 
 print('Введите число')
 a = int(input())
-
+bud = {1: "Mon", 2: "Tue", 3: "Wed", 4: "Thu", 5: "Fri"}
+vyh = {6: "Sun", 7: "Sat"}
 if (0 < a <= 7):
     if (a == 6 or a == 7):
         print('Выходной')
+        print(f'Это {vyh[a]}')
     else:
         print('Будний')
+        print(f'Это {bud[a]}')
+else:
+    print("Ошибка")
