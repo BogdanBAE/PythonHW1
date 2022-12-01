@@ -7,7 +7,14 @@
 
 n = input("Введите число: ")
 sum = 0
-for x in n:
-    if x.isdigit():
-        sum += int(x)
+
+for i in n:
+    if i != ".":
+        sum += int(i)
+print("Сумма:", sum)
+
+exit()  # выполнение через поиск решения и знакомства с функцие .isdigit  понравилось больше))
+for i in n:
+    if i.isdigit():
+        sum += int(i)
 print("Сумма:", sum)
