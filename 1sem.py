@@ -36,8 +36,7 @@
 # b = int(a*10 % 10)
 # print(b)
 
-print("Введите число ")
-a = int(input())
+2
 
 if (a % 5 == 0 and a % 10 == 0 or a % 15 == 0) and not (a % 30 == 0):
     print('Подходит')
